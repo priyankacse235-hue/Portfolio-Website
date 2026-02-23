@@ -311,42 +311,31 @@ section {
 
 /* Small screen/mobile responsive */
 @media screen and (max-width: 600px) {
-  .navbar {
-    flex-direction: column;   /* Mobile me vertical stack */
-    align-items: center;
-    gap: 12x;
-    padding:  0;
+
+  body{
+    padding-top: 100px;   /* 70px nahi */
   }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;   /* px lagao */
+  }
+
   .home {
     flex-direction: column;
     text-align: center;
   }
 
   .home img {
-   width: 160px;       /* smaller size for phone */
+    width: 160px;
     height: 160px;
-    margin: 0 auto 20px auto;
-     display: block;
+    margin: 0 auto 20px;
+    display: block;
   }
-
-  .home-content {
-    text-align: center;
-  }
-   body{
-    padding-top: 70px;
-  }
-  /* Header ko vertical stack karo */
-  header {
-    flex-direction: row;
-    align-items: center;
-    padding: 15px 10px;
-    justify-content:space-between;
-    padding:8px 15px;
-  }
-  .navbar a{ font-size:14px;
-  
 
 }
+
 
 
 
