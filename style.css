@@ -16,9 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
-
-  
+  padding: 20px 30px; 
 }
 body {
   padding-top: 80px;
@@ -137,7 +135,8 @@ img{
 section {
   display: flex;
   align-items: center;
-  padding: 80px 10%;
+  padding: 50px 10%;
+  margin: 0;
 }
 /*about section*/
 .about {
@@ -166,7 +165,7 @@ section {
   justify-content: center;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  
 }
 
 .skills-list{
@@ -317,4 +316,18 @@ section {
     align-items: center;
     gap: 10px;
   }
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+
 }
