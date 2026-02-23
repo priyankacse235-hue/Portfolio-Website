@@ -322,8 +322,9 @@ section {
   }
 
   .home img {
-    margin-left: 0;
-    margin-bottom: 20px;
+   width: 180px;       /* smaller size for phone */
+    height: 180px;
+    margin: 0 auto 20px auto;
   }
 
   .home-content {
@@ -331,3 +332,4 @@ section {
   }
 
 }
+
