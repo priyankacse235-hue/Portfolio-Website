@@ -312,10 +312,10 @@ section {
 /* Small screen/mobile responsive */
 @media screen and (max-width: 600px) {
   .navbar {
-    flex-direction: column;   /* Mobile me vertical stack */
+    flex-direction: row;   /* Mobile me vertical stack */
     align-items: flex-start;
     gap: 10px;
-    padding: 10px 0;
+    padding: 0;
   }
  
 
@@ -344,7 +344,9 @@ section {
   .logo{
     font-size:22px;
   }
+  .navbar a{ font-size:14px;
 }
+
 
 
 
