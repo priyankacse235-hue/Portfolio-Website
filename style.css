@@ -311,16 +311,13 @@ section {
 
 /* Small screen/mobile responsive */
 @media screen and (max-width: 600px) {
-
-  body{
-    padding-top: 100px;   /* 70px nahi */
-  }
-
   .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;   /* px lagao */
+    flex-direction: column;   /* Mobile me vertical stack */
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
   }
+ 
 
   .home {
     flex-direction: column;
@@ -328,15 +325,20 @@ section {
   }
 
   .home img {
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 20px;
+     width: 180px;       /* smaller size for phone */
+    height: 180px;
+    margin: 0 auto 20px auto;
     display: block;
   }
 
+  .home-content {
+    text-align: center;
+  }
+  body{
+    padding-top: 120px;
+  }
+
 }
-
-
 
 
 
