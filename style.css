@@ -1,0 +1,320 @@
+*/
+html {
+  scroll-behavior: smooth;
+}
+/*
+nav bar scroll n ho */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #021a4a;;
+  z-index: 1000;
+ 
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+
+  
+}
+body {
+  padding-top: 80px;
+}
+
+.logo {
+  
+   margin: 0; 
+    font-size: 32px;
+    font-weight: bold;
+    color: white;   /* Default color */
+    text-align: start;
+     
+}
+
+/* Aqua color for "folio" */
+.highlight {
+    color: #00ffff;   /* Aqua */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Clean font */
+    
+    background-color: #011136;
+    color: #ffffff; /* White text for contrast */
+}
+
+
+.navbar {
+  display: flex;              /* Horizontal layout */
+  justify-content: flex-end;  /* Right side align */
+  gap: 30px;                  /* Space between links */
+  
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color:aqua;
+}
+/*section part*/
+.home{
+    min-height: 80vh;
+    display: flex;
+    justify-content:center;
+    gap:50px;
+    align-items: center;
+    
+    
+  
+}
+
+.home h1{
+    font-size: 40px;
+    color:white;
+}
+
+.home p{
+    margin: 10px 0;
+    font-size: 18px;
+     
+}
+
+.home button{
+    padding: 8px 20px;
+    background-color: rgb(172, 16, 120);
+     font-weight: bold;
+     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.home button:hover{
+    background-color: #e65eb7;
+}
+.home-content{
+  max-width: 500px;
+  text-align: left;
+}
+img{
+    width: 250px;              /* image width */
+    height: 250px;             /* image height */
+    object-fit: cover;         /* image stretch na ho */
+    border-radius: 50%;    
+    object-position: 10% 15%;;     /* perfect round */
+    border: 6px solid aqua;    /* mota aqua border */
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+       margin-left: 40px;
+}
+.social-links a {
+  font-size: 32px;   /* yaha se size badhega */
+  color: aqua;
+  margin-right: 20px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.social-links a:hover {
+  color: white;
+  transform: scale(1.2);
+}
+/*sections*/
+section {
+  display: flex;
+  align-items: center;
+  padding: 80px 10%;
+}
+/*about section*/
+.about {
+  justify-content: center;   /* horizontal center */
+}
+.about-content {
+  max-width: 800px;
+  background: #021a4a;  
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+.about h2 {
+  color: #00bfff;
+  font-size: 35px;
+}
+.about p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-top: 20px;
+  color: #e0f0ff;
+}
+
+/* Skill section */
+.skills {
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.skills-list{
+  max-width: 800px;
+  background: #021a4a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+
+.skills h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color:#00bfff
+  
+}
+
+.skills ul {
+  list-style: disc;
+  padding-left:20px;
+  margin-top: 20px;
+}
+
+.skills li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #e0f0ff;
+}
+
+.skills li::marker {
+  color: aqua;
+}
+/*project section*/
+.projects {
+  justify-content: center;   /* horizontal center */
+}
+.project-card {
+  max-width: 800px;
+  background:#021a4a;  
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+.projects h2 {
+  color: #00bfff;
+  font-size: 35px;
+}
+.projects p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-top: 20px;
+  color: #e0f0ff;
+}
+.project-card ul {
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+.project-card li {
+  font-size: 25px;   /* thoda bada text */
+  margin-bottom: 10px;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  background-color: aqua;
+  color: #011136;   /* dark text for contrast */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: blue;
+  background-color: #ddeeee;
+}
+
+/*contect section*/
+
+.contact {
+  justify-content: center;   /* horizontal center */
+}
+.contact-links {
+  max-width: 800px;
+  background: #021a4a;  
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+.contact h2 {
+  color: #00bfff;
+  font-size: 35px;
+}
+.contact p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-top: 20px;
+  color: #e0f0ff;
+}
+.contact-links a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  background-color: aqua;
+  color: #011136;   /* dark text for contrast */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.contact-links a:hover {
+   background-color: #dfeeee;
+   color: blue;
+}
+.contact-label {
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+#modeToggle  {
+  color: yellow;
+  font-size: 25px;
+  background: #021a4a;
+}
+.light-mode .home h1 {
+  color: black;
+}
+
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  background: #021a4a;
+  font-size: 14px;
+     
+
+}
+
+/* Small screen/mobile responsive */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;   /* Mobile me vertical stack */
+    align-items: center;
+    gap: 10px;
+  }
+}
