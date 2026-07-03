@@ -6,7 +6,7 @@ contactBtn.addEventListener("click", function() {
     });
 });
 //dynamic text
-const text = "B.tech Student | Learning and Growing in Web Development";
+const text = "MCA Student | Learning and Growing in Web Development";
 let index=0;
 function typeEffect(){
     if(index<text.length){
